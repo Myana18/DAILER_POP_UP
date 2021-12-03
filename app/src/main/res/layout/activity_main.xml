@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".front_end_layer.controller.MainActivity">
+
+
+    <EditText
+        android:paddingLeft="@dimen/dimen15dp"
+      android:layout_margin="@dimen/dimen10dp"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:hint="@string/search_by_mobile_number"
+        android:background="@drawable/bg_edit"
+        android:layout_width="match_parent"
+        android:id="@+id/editSerachView"
+        android:layout_height="@dimen/dimen50dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/listContact"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone PopUp</string>
+    <string name="caller_name">Caller Name</string>
+    <string name="search_by_mobile_number">Search by mobile number</string>
+</resources>

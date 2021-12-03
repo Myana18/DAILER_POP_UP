@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.phonepopup">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name="com.demo.phonepopup.integration_layer.utility.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhonePopUp">
+
+        <receiver
+            android:name="com.demo.phonepopup.integration_layer.utility.IncomingReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.demo.phonepopup.front_end_layer.controller.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--        <activity-->
+
+<!--            android:name="com.demo.phonepopup.front_end_layer.controller.CallActivity"-->
+<!--            android:theme="@style/MyPhoneDialog"></activity>-->
+
+        <activity
+            android:theme="@style/MyPhoneDialog"
+            android:name="com.demo.phonepopup.front_end_layer.controller.CallActivity"
+           ></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#41B649</color>
+    <color name="colorPrimaryTrans">#4D41B649</color>
+    <color name="colorPrimaryDark">#F9F9F9</color>
+    <color name="colorAccent">#000000</color>
+    <color name="edit_disable">#F7F7F7</color>
+    <color name="shaded_green">#008D0A</color>
+    <color name="shimmer_placeholder">#dddddd</color>
+
+
+    <color name="toolbar_bg">#F9F9F9</color>
+    <!--<color name="colorPrimary">#ef8b35</color>-->
+    <!--<color name="colorPrimaryDark">#f05269</color>-->
+
+    <color name="DividerColor">#bdbdbd</color>
+
+    <color name="gBottom">#ef8b35</color>
+
+
+
+    <color name="dark_grey">#5e6266</color>
+
+    <color name="color_green_faint">#436AFF79</color>
+
+    <color name="green">#41B649</color>
+
+    <color name="primary_green">#52B20B</color>
+
+    <color name="blue">#3A80A4</color>
+
+    <color name="red">#f20b0b</color>
+    <color name="profileoptons">#99000000</color>
+
+    <color name="grey">#acacac</color>
+    <color name="Mgrey">#919191</color>
+    <color name="Lightgrey">#e6e6e6</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="blackTrans_newLatest">#8c000000</color>
+
+
+    <color name="gray">#515151</color>
+    <color name="skip_gray">#9EA6BE</color>
+
+
+    <color name="orange_800">#EF6C00</color>
+
+
+    <!-- Colors for the app -->
+    <color name="textcolor">#424347</color>
+    <color name="textcolor2">#1C1939</color>
+
+
+    <!--Light Background Dark Text-->
+
+    <!--Dark Background Light Text-->
+
+
+    <!--    <color name="bg_faint">#F9FAFC</color>-->
+    <color name="bg_faint">#F3F2F2</color>
+    <color name="faint_gray">#E1E1E1</color>
+    <color name="very_faint_gray">#EDF1F1F1</color>
+
+</resources>
